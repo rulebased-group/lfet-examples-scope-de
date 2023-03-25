@@ -1,0 +1,59 @@
+  
+ LF-ET 2.2.1 (230325a) - 25.03.2023 20:07
+  
+ Kommandozeilen-Funktion ausführen:
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ -GenTest "D:/LF/Projekte/rulebased.group/lfet-examples-scope-de/Scopes_04.lfet" -Group "Einfach" -SwitchCoverage "1" -NonExecutableRules "50" -NonExecutableRuleSeq "50" -RecommendedTestCases -Protocol -ExportExcel "Scopes_04.testcases.xlsx" -OpenFileOut -OpenDirectoryOut
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+ Aktuelles Verzeichnis (user.dir): "C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.2\jbr\bin"
+ Prüfen: Entscheidungstabelle Scopes_04
+ OK: 0 Fehler gefunden
+ 
+ TestValueGroup: Einfach, *ti.att
+ Config: 
+ 
+ *GTD - Globale Testdaten einlesen
+   | Informationen: 0
+   | Warnungen: 0
+   | Fehler: 0
+ 
+ Prüfen: Testwert-Definitionen
+ Analysieren: Regelgruppen
+ Analysieren: Empfohlene Regelfolgen für Test
+  
+ Regelgruppen: 2
+   
+     1: 1 - Scopes_04[Sat Mar 25 15:17:43 CET 2023] R01-R02-R03 
+     2: 2 - Scopes_04[Sat Mar 25 15:17:43 CET 2023] R04-R05-R06
+  
+ Switch Überdeckung: 1-Switch
+ 
+ Nichtausführbare Regeln: 0
+ Nichtausführbare Regelfolgen: 2
+ 
+     1: R02-R06 .... R06.B04=N
+     2: R03-R05 .... R05.B04=J
+ 
+ Nichtausführbare Switch-Regelfolgen: 2
+ 
+     1: R02-R06 .... R06.B04=N
+     2: R03-R05 .... R05.B04=J
+ 
+ Empfohlene Regelfolgen für Test: 5
+ 
+     1: R01         
+     2: R02-R04     
+     3: R02-R05     
+     4: R03-R04     
+     5: R03-R06     
+ 
+ 5 Testfälle erzeugen (Empfohlene Testfälle)
+  
+ Ausgabedatei erzeugen (Excel): "D:\LF\Projekte\rulebased.group\lfet-examples-scope-de\Scopes_04.testcases.xlsx"
+ Verzeichnis der Ausgabedatei öffnen: "D:\LF\Projekte\rulebased.group\lfet-examples-scope-de"
+ Ausgabedatei öffnen: "D:\LF\Projekte\rulebased.group\lfet-examples-scope-de\Scopes_04.testcases.xlsx"
+  
+ Ausgabedatei erzeugen (Protokoll): "D:\LF\Projekte\rulebased.group\lfet-examples-scope-de\Scopes_04.log.01.console.txt"
+
+*** Report-Ende ***

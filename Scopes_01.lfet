@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<LFET version="LF-ET 2.2.1 (230323a)" language="German" saveDate="2023.03.25 at 10:10:14 CET" saveUser="lfhl">
+<LFET version="LF-ET 2.2.1 (230323a)" language="German" saveDate="2023.03.25 at 15:01:01 CET" saveUser="lfhl">
   <Conditions>
     <Condition uId="11446800829457960">
       <Title language="German" value="B01"/>
@@ -122,7 +122,7 @@
       <ActionOccurrenceLink link="16797282087044233"/>
     </Rule>
   </Rules>
-  <Title language="German" value="Beispiel 01: Einfache ET, keine Regelgruppen, nur einfache Testanweisungen, keine Scopes, keine SIDs"/>
+  <Title language="German" value="Beispiel 01: Einfache ET, keine Regelgruppen, keine Scopes/SIDs"/>
   <UrlsOut>
     <Url title="Ordner" url="file:///./"/>
   </UrlsOut>
@@ -135,4 +135,5 @@
   <TestValue group="Einfach" type="tcpost" value="ET Nachbedingung"/>
   <TestValue group="Einfach" type="isi" value="ET Zwischenschritt Testanweisung"/>
   <TestValue group="Einfach" type="ise" value="ET Zwischenschritt erwartetes Resultat"/>
+  <Text language="German" value="In dieser Entscheidungstabellen werden alle verfügbaren Testanweisungen genutzt,&lt;br/&gt;um deren Positionierung im Testfall zu demonstrieren.&lt;br/&gt;&lt;br/&gt;Die folgenden Testanweisungen werden nur in besonderen Fällen genutzt:&lt;br/&gt;- Anweisungen für nicht verwendete Aktionen&lt;br/&gt;- Anweisungen für Regeln"/>
 </LFET>

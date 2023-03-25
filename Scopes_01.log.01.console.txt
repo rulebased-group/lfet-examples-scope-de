@@ -1,12 +1,12 @@
   
- LF-ET 2.2.1 (230323a) - 25.03.2023 10:11
+ LF-ET 2.2.1 (230325a) - 25.03.2023 20:05
   
  Kommandozeilen-Funktion ausführen:
- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- -GenTest "D:/LF/Projekte/lfet-help-de_workstuff/test_generation/scopes/Scopes_01.lfet" -Group "Einfach" -NonExecutableRules "50" -RecommendedTestCases -Protocol -ExportExcel "./Scopes_01.testcases.xlsx" -OpenFileOut -OpenDirectoryOut
- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ -GenTest "D:/LF/Projekte/rulebased.group/lfet-examples-scope-de/Scopes_01.lfet" -Group "Einfach" -NonExecutableRules "50" -RecommendedTestCases -Protocol -ExportExcel "Scopes_01.testcases.xlsx" -OpenFileOut -OpenDirectoryOut
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   
- Aktuelles Verzeichnis (user.dir): "D:\LF\Projekte\lfet-help-de_workstuff\test_generation\scopes"
+ Aktuelles Verzeichnis (user.dir): "C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.2\jbr\bin"
  Prüfen: Entscheidungstabelle Scopes_01
  OK: 0 Fehler gefunden
  
@@ -35,10 +35,10 @@
  
  3 Testfälle erzeugen (Empfohlene Testfälle)
   
- Ausgabedatei erzeugen (Excel): "D:\LF\Projekte\lfet-help-de_workstuff\test_generation\scopes\.\Scopes_01.testcases.xlsx"
- Verzeichnis der Ausgabedatei öffnen: "D:\LF\Projekte\lfet-help-de_workstuff\test_generation\scopes\."
- Ausgabedatei öffnen: "D:\LF\Projekte\lfet-help-de_workstuff\test_generation\scopes\.\Scopes_01.testcases.xlsx"
+ Ausgabedatei erzeugen (Excel): "D:\LF\Projekte\rulebased.group\lfet-examples-scope-de\Scopes_01.testcases.xlsx"
+ Verzeichnis der Ausgabedatei öffnen: "D:\LF\Projekte\rulebased.group\lfet-examples-scope-de"
+ Ausgabedatei öffnen: "D:\LF\Projekte\rulebased.group\lfet-examples-scope-de\Scopes_01.testcases.xlsx"
   
- Ausgabedatei erzeugen (Protokoll): "D:\LF\Projekte\lfet-help-de_workstuff\test_generation\scopes\Scopes_01.log.01.console.txt"
+ Ausgabedatei erzeugen (Protokoll): "D:\LF\Projekte\rulebased.group\lfet-examples-scope-de\Scopes_01.log.01.console.txt"
 
 *** Report-Ende ***

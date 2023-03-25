@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LFET version="LF-ET 2.2.1 (230323a)" language="German" saveDate="2023.03.25 at 10:10:48 CET" saveUser="lfhl">
+  <Conditions>
+    <Condition uId="16797341524573665">
+      <Title language="German" value="Regelgruppe"/>
+      <ConditionOccurrences>
+        <ConditionOccurrence uId="16797341524603668">
+          <Symbol language="German" value="1"/>
+          <Title language="German" value="Regelgruppe 1"/>
+          <TestValue group="Einfach" type="tsi" value="B01/01 Testanweisung"/>
+          <TestValue group="Einfach" type="tse" value="B01/01 Erwartetes Resultat"/>
+          <TestValue group="Einfach" type="tcpre" value="B01/01 Testfall Vorbedingung"/>
+          <TestValue group="Einfach" type="tcpost" value="B01/01 Testfall Nachbedingung"/>
+          <TestValue group="Einfach" type="isi" value="B01/01 Zwischenschritt Anweisungen"/>
+          <TestValue group="Einfach" type="ise" value="B01/01 Zwischenschritt erwartetes Resultat"/>
+        </ConditionOccurrence>
+        <ConditionOccurrence uId="16797341526253675">
+          <Symbol language="German" value="2"/>
+          <Title language="German" value="Regelgruppe 2"/>
+          <TestValue group="Einfach" type="tsi" value="B01/02 Testanweisung"/>
+          <TestValue group="Einfach" type="tse" value="B01/02 Erwartetes Resultat"/>
+          <TestValue group="Einfach" type="tcpre" value="B01/02 Testfall Vorbedingung"/>
+          <TestValue group="Einfach" type="tcpost" value="B01/02 Testfall Nachbedingung"/>
+          <TestValue group="Einfach" type="isi" value="B01/02 Zwischenschritt Anweisungen"/>
+          <TestValue group="Einfach" type="ise" value="B01/02 Zwischenschritt erwartetes Resultat"/>
+        </ConditionOccurrence>
+      </ConditionOccurrences>
+      <TestValue group="Einfach" type="tspre" value="B01 Allgemeine Konfiguration"/>
+      <TestValue group="Einfach" type="tcpre" value="B01 Testfall Vorbedingung"/>
+      <TestValue group="Einfach" type="tcpost" value="B01 Testfall Nachbedingung"/>
+    </Condition>
+    <Condition uId="16797321392125584">
+      <Title language="German" value="B02"/>
+      <ConditionOccurrences>
+        <ConditionOccurrence uId="16797321392155587">
+          <Symbol language="German" value="J"/>
+          <Title language="German" value="Ja"/>
+          <TestValue group="Einfach" type="tsi" value="B02/01 Testanweisung"/>
+          <TestValue group="Einfach" type="tse" value="B02/01 Erwartetes Resultat"/>
+          <TestValue group="Einfach" type="tcpre" value="B02/01 Testfall Vorbedingung"/>
+          <TestValue group="Einfach" type="tcpost" value="B02/01 Testfall Nachbedingung"/>
+        </ConditionOccurrence>
+        <ConditionOccurrence uId="16797321392955594">
+          <Symbol language="German" value="N"/>
+          <Title language="German" value="Nein"/>
+          <TestValue group="Einfach" type="tsi" value="B02/02 Testanweisung"/>
+          <TestValue group="Einfach" type="tse" value="B02/02 Erwartetes Resultat"/>
+          <TestValue group="Einfach" type="tcpre" value="B02/02 Testfall Vorbedingung"/>
+          <TestValue group="Einfach" type="tcpost" value="B02/02 Testfall Nachbedingung"/>
+        </ConditionOccurrence>
+      </ConditionOccurrences>
+      <TestValue group="Einfach" type="tspre" value="B02 Allgemeine Konfiguration"/>
+      <TestValue group="Einfach" type="tcpre" value="B02 Testfall Vorbedingung"/>
+      <TestValue group="Einfach" type="tcpost" value="B02 Testfall Nachbedingung"/>
+    </Condition>
+    <Condition uId="11446800829457960">
+      <Title language="German" value="B03"/>
+      <ConditionOccurrences>
+        <ConditionOccurrence uId="16797281566744157">
+          <Symbol language="German" value="J"/>
+          <Title language="German" value="Ja"/>
+          <TestValue group="Einfach" type="tsi" value="B03/01 Testanweisung"/>
+          <TestValue group="Einfach" type="tse" value="B03/01 Erwartetes Resultat"/>
+          <TestValue group="Einfach" type="tcpre" value="B03/01 Testfall Vorbedingung"/>
+          <TestValue group="Einfach" type="tcpost" value="B03/01 Testfall Nachbedingung"/>
+        </ConditionOccurrence>
+        <ConditionOccurrence uId="16797281566764159">
+          <Symbol language="German" value="N"/>
+          <Title language="German" value="Nein"/>
+          <TestValue group="Einfach" type="tsi" value="B03/02 Testanweisung"/>
+          <TestValue group="Einfach" type="tse" value="B03/02 Erwartetes Resultat"/>
+          <TestValue group="Einfach" type="tcpre" value="B03/02 Testfall Vorbedingung"/>
+          <TestValue group="Einfach" type="tcpost" value="B03/02 Testfall Nachbedingung"/>
+        </ConditionOccurrence>
+      </ConditionOccurrences>
+      <TestValue group="Einfach" type="tspre" value="B03 Allgemeine Konfiguration"/>
+      <TestValue group="Einfach" type="tcpre" value="B03 Testfall Vorbedingung"/>
+      <TestValue group="Einfach" type="tcpost" value="B03 Testfall Nachbedingung"/>
+    </Condition>
+  </Conditions>
+  <Actions>
+    <Action uId="11446800828767967">
+      <Title language="German" value="A01"/>
+      <ActionOccurrences>
+        <ActionOccurrence uId="16797282087044233">
+          <Symbol language="German" value="X"/>
+          <Title language="German" value="Aktion ausführen"/>
+          <TestValue group="Einfach" type="tsi" value="A01/01 Testanweisung"/>
+          <TestValue group="Einfach" type="tse" value="A01/01 Erwartetes Resultat"/>
+          <TestValue group="Einfach" type="tcpre" value="A01/01 Testfall Vorbedingung"/>
+          <TestValue group="Einfach" type="tcpost" value="A01/01 Testfall Nachbedingung"/>
+        </ActionOccurrence>
+        <TestValue group="Einfach" type="tsi" value="A01/- Testanweisung"/>
+        <TestValue group="Einfach" type="tse" value="A01/- Erwartetes Resultat"/>
+        <TestValue group="Einfach" type="tcpre" value="A01/- Testfall Vorbedingung"/>
+        <TestValue group="Einfach" type="tcpost" value="A01/- Testfall Nachbedingung"/>
+      </ActionOccurrences>
+      <TestValue group="Einfach" type="tspre" value="A01 Allgemeine Konfiguration"/>
+      <TestValue group="Einfach" type="tcpre" value="A01 Testfall Vorbedingung"/>
+      <TestValue group="Einfach" type="tcpost" value="A01 Testfall Nachbedingung"/>
+    </Action>
+    <Action uId="16797283379404521">
+      <Title language="German" value="A02"/>
+      <ActionOccurrences>
+        <ActionOccurrence uId="16797283380494524">
+          <Symbol language="German" value="X"/>
+          <Title language="German" value="Aktion ausführen"/>
+          <TestValue group="Einfach" type="tsi" value="A02/01 Testanweisung"/>
+          <TestValue group="Einfach" type="tse" value="A02/01 Erwartetes Resultat"/>
+          <TestValue group="Einfach" type="tcpre" value="A02/01 Testfall Vorbedingung"/>
+          <TestValue group="Einfach" type="tcpost" value="A02/01 Testfall Nachbedingung"/>
+        </ActionOccurrence>
+        <TestValue group="Einfach" type="tsi" value="A02/- Testanweisung"/>
+        <TestValue group="Einfach" type="tse" value="A02/- Erwartetes Resultat"/>
+        <TestValue group="Einfach" type="tcpre" value="A02/- Testfall Vorbedingung"/>
+        <TestValue group="Einfach" type="tcpost" value="A02/- Testfall Nachbedingung"/>
+      </ActionOccurrences>
+      <TestValue group="Einfach" type="tspre" value="A02 Allgemeine Konfiguration"/>
+      <TestValue group="Einfach" type="tcpre" value="A02 Testfall Vorbedingung"/>
+      <TestValue group="Einfach" type="tcpost" value="A02 Testfall Nachbedingung"/>
+    </Action>
+    <Action uId="16797344723314042">
+      <Title language="German" value="Weiter mit Regelgruppe"/>
+      <ActionOccurrences>
+        <ActionOccurrence uId="16797344723344045">
+          <Symbol language="German" value="2"/>
+          <Title language="German" value="Weiter mit Regelgruppe 2"/>
+          <TestValue group="Einfach" type="tsi" value="A03/01 Testanweisung"/>
+          <TestValue group="Einfach" type="tse" value="A03/01 Erwartetes Resultat"/>
+          <TestValue group="Einfach" type="tcpre" value="A03/01 Testfall Vorbedingung"/>
+          <TestValue group="Einfach" type="tcpost" value="A03/01 Testfall Nachbedingung"/>
+        </ActionOccurrence>
+        <ActionOccurrence uId="16797345172684255">
+          <Symbol language="German" value="Ende"/>
+          <Title language="German" value="Ende der Verarbeitung"/>
+          <TestValue group="Einfach" type="tsi" value="A03/02 Testanweisung"/>
+          <TestValue group="Einfach" type="tse" value="A03/02 Erwartetes Resultat"/>
+          <TestValue group="Einfach" type="tcpre" value="A03/02 Testfall Vorbedingung"/>
+          <TestValue group="Einfach" type="tcpost" value="A03/02 Testfall Nachbedingung"/>
+        </ActionOccurrence>
+        <TestValue group="Einfach" type="tsi" value="A03/- Testanweisung"/>
+        <TestValue group="Einfach" type="tse" value="A03/- Erwartetes Resultat"/>
+        <TestValue group="Einfach" type="tcpre" value="A03/- Testfall Vorbedingung"/>
+        <TestValue group="Einfach" type="tcpost" value="A03/- Testfall Nachbedingung"/>
+      </ActionOccurrences>
+      <TestValue group="Einfach" type="tspre" value="A03 Allgemeine Konfiguration"/>
+      <TestValue group="Einfach" type="tcpre" value="A03 Testfall Vorbedingung"/>
+      <TestValue group="Einfach" type="tcpost" value="A03 Testfall Nachbedingung"/>
+    </Action>
+  </Actions>
+  <Rules lastId="17">
+    <Rule id="14">
+      <ActionOccurrenceLink link="16797282087044233"/>
+      <TestValue group="Einfach" type="tcpre" value="R01 Testfall Vorbedingung"/>
+      <TestValue group="Einfach" type="tcpost" value="R01 Testfall Nachbedingung"/>
+      <TestValue group="Einfach" type="isi" value="R01 Zwischenschritt Testanweisung"/>
+      <TestValue group="Einfach" type="ise" value="R01 Zwischenschritt erwartetes Resultat"/>
+      <ConditionOccurrenceLink link="16797321392155587"/>
+      <ConditionOccurrenceLink link="16797341524603668"/>
+      <ActionOccurrenceLink link="16797345172684255"/>
+    </Rule>
+    <Rule id="15">
+      <TestValue group="Einfach" type="tcpre" value="R02 Testfall Vorbedingung"/>
+      <TestValue group="Einfach" type="tcpost" value="R02 Testfall Nachbedingung"/>
+      <TestValue group="Einfach" type="isi" value="R02 Zwischenschritt Testanweisung"/>
+      <TestValue group="Einfach" type="ise" value="R02 Zwischenschritt erwartetes Resultat"/>
+      <ConditionOccurrenceLink link="16797321392955594"/>
+      <ConditionOccurrenceLink link="16797341524603668"/>
+      <ActionOccurrenceLink link="16797344723344045"/>
+    </Rule>
+    <Rule id="16">
+      <TestValue group="Einfach" type="tcpre" value="R03 Testfall Vorbedingung"/>
+      <TestValue group="Einfach" type="tcpost" value="R03 Testfall Nachbedingung"/>
+      <TestValue group="Einfach" type="isi" value="R03 Zwischenschritt Testanweisung"/>
+      <TestValue group="Einfach" type="ise" value="R03 Zwischenschritt erwartetes Resultat"/>
+      <ConditionOccurrenceLink link="16797341526253675"/>
+      <ActionOccurrenceLink link="16797345172684255"/>
+      <ConditionOccurrenceLink link="16797281566744157"/>
+      <ActionOccurrenceLink link="16797283380494524"/>
+    </Rule>
+    <Rule id="17">
+      <TestValue group="Einfach" type="tcpre" value="R04 Testfall Vorbedingung"/>
+      <TestValue group="Einfach" type="tcpost" value="R04 Testfall Nachbedingung"/>
+      <TestValue group="Einfach" type="isi" value="R04 Zwischenschritt Testanweisung"/>
+      <TestValue group="Einfach" type="ise" value="R04 Zwischenschritt erwartetes Resultat"/>
+      <ConditionOccurrenceLink link="16797341526253675"/>
+      <ActionOccurrenceLink link="16797345172684255"/>
+      <ConditionOccurrenceLink link="16797281566764159"/>
+      <ActionOccurrenceLink link="16797282087044233"/>
+      <ActionOccurrenceLink link="16797283380494524"/>
+    </Rule>
+  </Rules>
+  <Title language="German" value="Beispiel 02: ET mit Regelgruppen, nur einfache Testanweisungen, keine Scopes, keine SIDs"/>
+  <UrlsOut>
+    <Url title="Ordner" url="file:///./"/>
+  </UrlsOut>
+  <TestValueGroups selectedGroup="Einfach">
+    <TestValueGroup name="Einfach" description="Keine Verwendung von Scope oder Sid">
+      <Config name="Excel" parms="-Group 'Einfach' -NonExecutableRules '50' -RecommendedTestCases -Protocol -ExportExcel './Scopes_02.testcases.xlsx' -OpenFileOut -OpenDirectoryOut"/>
+    </TestValueGroup>
+  </TestValueGroups>
+  <TestValue group="Einfach" type="tcpre" value="ET Testfall Vorbedingung"/>
+  <TestValue group="Einfach" type="tcpost" value="ET Nachbedingung"/>
+  <TestValue group="Einfach" type="isi" value="ET Zwischenschritt Testanweisung"/>
+  <TestValue group="Einfach" type="ise" value="ET Zwischenschritt erwartetes Resultat"/>
+</LFET>

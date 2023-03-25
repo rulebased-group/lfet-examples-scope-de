@@ -1,0 +1,44 @@
+  
+ LF-ET 2.2.1 (230323a) - 25.03.2023 10:11
+  
+ Kommandozeilen-Funktion ausführen:
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ -GenTest "D:/LF/Projekte/lfet-help-de_workstuff/test_generation/scopes/Scopes_01.lfet" -Group "Einfach" -NonExecutableRules "50" -RecommendedTestCases -Protocol -ExportExcel "./Scopes_01.testcases.xlsx" -OpenFileOut -OpenDirectoryOut
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+ Aktuelles Verzeichnis (user.dir): "D:\LF\Projekte\lfet-help-de_workstuff\test_generation\scopes"
+ Prüfen: Entscheidungstabelle Scopes_01
+ OK: 0 Fehler gefunden
+ 
+ TestValueGroup: Einfach
+ Config: 
+ 
+ *GTD - Globale Testdaten einlesen
+   | Informationen: 0
+   | Warnungen: 0
+   | Fehler: 0
+ 
+ Prüfen: Testwert-Definitionen
+ Analysieren: Regelgruppen
+ Analysieren: Empfohlene Regelfolgen für Test
+  
+ Switch Überdeckung: 0-Switch
+ 
+ Nichtausführbare Regeln: 0
+ Nichtausführbare Regelfolgen: 0
+ Nichtausführbare Switch-Regelfolgen: 0
+ Empfohlene Regelfolgen für Test: 3
+ 
+     1: R01     
+     2: R02     
+     3: R03     
+ 
+ 3 Testfälle erzeugen (Empfohlene Testfälle)
+  
+ Ausgabedatei erzeugen (Excel): "D:\LF\Projekte\lfet-help-de_workstuff\test_generation\scopes\.\Scopes_01.testcases.xlsx"
+ Verzeichnis der Ausgabedatei öffnen: "D:\LF\Projekte\lfet-help-de_workstuff\test_generation\scopes\."
+ Ausgabedatei öffnen: "D:\LF\Projekte\lfet-help-de_workstuff\test_generation\scopes\.\Scopes_01.testcases.xlsx"
+  
+ Ausgabedatei erzeugen (Protokoll): "D:\LF\Projekte\lfet-help-de_workstuff\test_generation\scopes\Scopes_01.log.01.console.txt"
+
+*** Report-Ende ***

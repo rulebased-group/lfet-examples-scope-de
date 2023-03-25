@@ -1,0 +1,5 @@
+/backups
+*.lfet_$temp
+*.lfet.*.$bak
+*.lfet.$bak.zip
+*.zip

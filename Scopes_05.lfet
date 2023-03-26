@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LFET version="LF-ET 2.2.1 (230325a)" language="German" saveDate="2023.03.26 at 14:42:23 CEST" saveUser="lfhl">
+  <Conditions>
+    <Condition uId="16797341524573665">
+      <Title language="German" value="Regelgruppe"/>
+      <ConditionOccurrences>
+        <ConditionOccurrence uId="16797341524603668">
+          <Symbol language="German" value="1"/>
+          <Title language="German" value="Regelgruppe 1"/>
+        </ConditionOccurrence>
+        <ConditionOccurrence uId="16797341526253675">
+          <Symbol language="German" value="2"/>
+          <Title language="German" value="Regelgruppe 2"/>
+        </ConditionOccurrence>
+      </ConditionOccurrences>
+    </Condition>
+    <Condition uId="16797321392125584">
+      <Title language="German" value="B02"/>
+      <ConditionOccurrences>
+        <ConditionOccurrence uId="16797321392155587">
+          <Symbol language="German" value="J"/>
+          <Title language="German" value="Ja"/>
+          <TestValue group="Einfach" type="tsi" value="B02/01 Testanweisung [scope global, sid 1021]"/>
+          <TestValue group="Einfach" type="tse" value="B02/01 Erwartetes Resultat [scope global, sid 1021]"/>
+          <TestValue group="Einfach" type="tcpre" value="B02/01 Testfall Vorbedingung [scope global, sid 1021]"/>
+          <TestValue group="Einfach" type="tcpost" value="B02/01 Testfall Nachbedingung [scope global, sid 1021]"/>
+        </ConditionOccurrence>
+        <ConditionOccurrence uId="16797321392955594">
+          <Symbol language="German" value="N"/>
+          <Title language="German" value="Nein"/>
+          <TestValue group="Einfach" type="tsi" value="B02/02 Testanweisung [scope global, sid 1021]"/>
+          <TestValue group="Einfach" type="tse" value="B02/02 Erwartetes Resultat [scope global, sid 1021]"/>
+          <TestValue group="Einfach" type="tcpre" value="B02/02 Testfall Vorbedingung [scope global, sid 1021]"/>
+          <TestValue group="Einfach" type="tcpost" value="B02/02 Testfall Nachbedingung [scope global, sid 1021]"/>
+        </ConditionOccurrence>
+      </ConditionOccurrences>
+      <TestValue group="Einfach" type="tcpre" value="B02 Testfall Vorbedingung [scope global, sid 1020]"/>
+      <TestValue group="Einfach" type="tcpost" value="B02 Testfall Nachbedingung [scope global, sid 1020]"/>
+      <TestValue group="*ti.att" type="tcpre" value="sid=1020"/>
+      <TestValue group="*ti.att" type="tcpost" value="sid=1020"/>
+      <TestValue group="*ti.att" type="tspre" value="scope=global&lt;br/&gt;&lt;br/&gt;// 0nnn - ET, 1nnn - Bedingungen, 2nnn - Zwischenschritt, 3nnn - Aktionen&lt;br/&gt;// hier 1020 für B02 für Vor- und Nachbedingung, 1021 B02/nn für alle Werte&lt;br/&gt;sid=1021"/>
+    </Condition>
+    <Condition uId="11446800829457960">
+      <Title language="German" value="B03"/>
+      <ConditionOccurrences>
+        <ConditionOccurrence uId="16797281566744157">
+          <Symbol language="German" value="J"/>
+          <Title language="German" value="Ja"/>
+          <TestValue group="Einfach" type="tsi" value="B03/01 Testanweisung [scope global, sid 1031]"/>
+          <TestValue group="Einfach" type="tse" value="B03/01 Erwartetes Resultat [scope global, sid 1031]"/>
+          <TestValue group="Einfach" type="tcpre" value="B03/01 Testfall Vorbedingung [scope global, sid 1031]"/>
+          <TestValue group="Einfach" type="tcpost" value="B03/01 Testfall Nachbedingung [scope global, sid 1031]"/>
+        </ConditionOccurrence>
+        <ConditionOccurrence uId="16797281566764159">
+          <Symbol language="German" value="N"/>
+          <Title language="German" value="Nein"/>
+          <TestValue group="Einfach" type="tsi" value="B03/02 Testanweisung [scope global, sid 1031]"/>
+          <TestValue group="Einfach" type="tse" value="B03/02 Erwartetes Resultat [scope global, sid 1031]"/>
+          <TestValue group="Einfach" type="tcpre" value="B03/02 Testfall Vorbedingung [scope global, sid 1031]"/>
+          <TestValue group="Einfach" type="tcpost" value="B03/02 Testfall Nachbedingung [scope global, sid 1031]"/>
+        </ConditionOccurrence>
+      </ConditionOccurrences>
+      <TestValue group="Einfach" type="tcpre" value="B03 Testfall Vorbedingung [scope global, sid 1030]"/>
+      <TestValue group="Einfach" type="tcpost" value="B03 Testfall Nachbedingung [scope global, sid 1030]"/>
+      <TestValue group="*ti.att" type="tcpre" value="sid=1030"/>
+      <TestValue group="*ti.att" type="tcpost" value="sid=1030"/>
+      <TestValue group="*ti.att" type="tspre" value="scope=global&lt;br/&gt;&lt;br/&gt;// 0nnn - ET, 1nnn - Bedingungen, 2nnn - Zwischenschritt, 3nnn - Aktionen&lt;br/&gt;// hier 1030 für B03 für Vor- und Nachbedingung, 1031 B03/nn für alle Werte&lt;br/&gt;sid=1031"/>
+    </Condition>
+    <Condition uId="16797502159941382">
+      <Title language="German" value="B04"/>
+      <ConditionOccurrences>
+        <ConditionOccurrence uId="16797502159971385">
+          <Symbol language="German" value="J"/>
+          <Title language="German" value="Ja"/>
+          <TestValue group="Einfach" type="tsi" value="B04/01 Testanweisung [scope global, sid 1041]"/>
+          <TestValue group="Einfach" type="tse" value="B04/01 Erwartetes Resultat [scope global, sid 1041]"/>
+          <TestValue group="Einfach" type="tcpre" value="B04/01 Testfall Vorbedingung [scope global, sid 1041]"/>
+          <TestValue group="Einfach" type="tcpost" value="B04/01 Testfall Nachbedingung [scope global, sid 1041]"/>
+        </ConditionOccurrence>
+        <ConditionOccurrence uId="16797502160041392">
+          <Symbol language="German" value="N"/>
+          <Title language="German" value="Nein"/>
+          <TestValue group="Einfach" type="tsi" value="B04/02 Testanweisung [scope global, sid 1041]"/>
+          <TestValue group="Einfach" type="tse" value="B04/02 Erwartetes Resultat [scope global, sid 1041]"/>
+          <TestValue group="Einfach" type="tcpre" value="B04/02 Testfall Vorbedingung [scope global, sid 1041]"/>
+          <TestValue group="Einfach" type="tcpost" value="B04/02 Testfall Nachbedingung [scope global, sid 1041]"/>
+        </ConditionOccurrence>
+      </ConditionOccurrences>
+      <TestValue group="Einfach" type="tcpre" value="B04 Testfall Vorbedingung [scope global, sid 1040]"/>
+      <TestValue group="Einfach" type="tcpost" value="B04 Testfall Nachbedingung [scope global, sid 1040]"/>
+      <TestValue group="*ti.att" type="tspre" value="scope=global&lt;br/&gt;&lt;br/&gt;// 0nnn - ET, 1nnn - Bedingungen, 2nnn - Zwischenschritt, 3nnn - Aktionen&lt;br/&gt;// hier 1040 für B04 für Vor- und Nachbedingung, 1041 B04/nn für alle Werte&lt;br/&gt;sid=1041"/>
+      <TestValue group="*ti.att" type="tcpre" value="sid=1040"/>
+      <TestValue group="*ti.att" type="tcpost" value="sid=1040"/>
+    </Condition>
+  </Conditions>
+  <Actions>
+    <Action uId="11446800828767967">
+      <Title language="German" value="A01"/>
+      <ActionOccurrences>
+        <ActionOccurrence uId="16797282087044233">
+          <Symbol language="German" value="X"/>
+          <Title language="German" value="Aktion ausführen"/>
+          <TestValue group="Einfach" type="tsi" value="A01/01 Testanweisung [scope global, sid 3011]"/>
+          <TestValue group="Einfach" type="tse" value="A01/01 Erwartetes Resultat [scope global, sid 3011]"/>
+          <TestValue group="Einfach" type="tcpre" value="A01/01 Testfall Vorbedingung [scope global, sid 3011]"/>
+          <TestValue group="Einfach" type="tcpost" value="A01/01 Testfall Nachbedingung [scope global, sid 3011]"/>
+        </ActionOccurrence>
+      </ActionOccurrences>
+      <TestValue group="Einfach" type="tcpre" value="A01 Testfall Vorbedingung [scope global, sid 3010]"/>
+      <TestValue group="Einfach" type="tcpost" value="A01 Testfall Nachbedingung [scope global, sid 3010]"/>
+      <TestValue group="*ti.att" type="tcpre" value="sid=3010"/>
+      <TestValue group="*ti.att" type="tcpost" value="sid=3010"/>
+      <TestValue group="*ti.att" type="tspre" value="scope=global&lt;br/&gt;&lt;br/&gt;// 0nnn - ET, 1nnn - Bedingungen, 2nnn - Zwischenschritt, 3nnn - Aktionen&lt;br/&gt;// hier 3010 für A01 für Vor- und Nachbedingung, 3011 A01/nn für alle Werte&lt;br/&gt;sid=3011"/>
+    </Action>
+    <Action uId="16797283379404521">
+      <Title language="German" value="A02"/>
+      <ActionOccurrences>
+        <ActionOccurrence uId="16797283380494524">
+          <Symbol language="German" value="X"/>
+          <Title language="German" value="Aktion ausführen"/>
+          <TestValue group="Einfach" type="tsi" value="A02/01 Testanweisung [scope global, sid 3021]"/>
+          <TestValue group="Einfach" type="tse" value="A02/01 Erwartetes Resultat [scope global, sid 3021]"/>
+          <TestValue group="Einfach" type="tcpre" value="A02/01 Testfall Vorbedingung [scope global, sid 3021]"/>
+          <TestValue group="Einfach" type="tcpost" value="A02/01 Testfall Nachbedingung [scope global, sid 3021]"/>
+        </ActionOccurrence>
+      </ActionOccurrences>
+      <TestValue group="Einfach" type="tcpre" value="A02 Testfall Vorbedingung [scope global, sid 3020]"/>
+      <TestValue group="Einfach" type="tcpost" value="A02 Testfall Nachbedingung [scope global, sid 3020]"/>
+      <TestValue group="*ti.att" type="tcpre" value="sid=3020"/>
+      <TestValue group="*ti.att" type="tcpost" value="sid=3020"/>
+      <TestValue group="*ti.att" type="tspre" value="scope=global&lt;br/&gt;&lt;br/&gt;// 0nnn - ET, 1nnn - Bedingungen, 2nnn - Zwischenschritt, 3nnn - Aktionen&lt;br/&gt;// hier 3020 für A02 für Vor- und Nachbedingung, 3021 A02/nn für alle Werte&lt;br/&gt;sid=3021"/>
+    </Action>
+    <Action uId="16797344723314042">
+      <Title language="German" value="Weiter mit Regelgruppe"/>
+      <ActionOccurrences>
+        <ActionOccurrence uId="16797344723344045">
+          <Symbol language="German" value="2"/>
+          <Title language="German" value="Weiter mit Regelgruppe 2"/>
+        </ActionOccurrence>
+        <ActionOccurrence uId="16797345172684255">
+          <Symbol language="German" value="Ende"/>
+          <Title language="German" value="Ende der Verarbeitung"/>
+        </ActionOccurrence>
+      </ActionOccurrences>
+    </Action>
+  </Actions>
+  <Rules lastId="23">
+    <Rule id="14">
+      <ActionOccurrenceLink link="16797282087044233"/>
+      <ConditionOccurrenceLink link="16797321392155587"/>
+      <ConditionOccurrenceLink link="16797341524603668"/>
+      <ActionOccurrenceLink link="16797345172684255"/>
+    </Rule>
+    <Rule id="22">
+      <ConditionOccurrenceLink link="16797321392955594"/>
+      <ConditionOccurrenceLink link="16797341524603668"/>
+      <ActionOccurrenceLink link="16797344723344045"/>
+      <ConditionOccurrenceLink link="16797502159971385"/>
+      <ActionOccurrenceLink link="16797282087044233"/>
+      <ActionOccurrenceLink link="16797283380494524"/>
+    </Rule>
+    <Rule id="19">
+      <ConditionOccurrenceLink link="16797321392955594"/>
+      <ConditionOccurrenceLink link="16797341524603668"/>
+      <ActionOccurrenceLink link="16797344723344045"/>
+      <ConditionOccurrenceLink link="16797502160041392"/>
+      <ActionOccurrenceLink link="16797283380494524"/>
+    </Rule>
+    <Rule id="23">
+      <ConditionOccurrenceLink link="16797341526253675"/>
+      <ActionOccurrenceLink link="16797345172684255"/>
+      <ConditionOccurrenceLink link="16797281566744157"/>
+      <ActionOccurrenceLink link="16797282087044233"/>
+    </Rule>
+    <Rule id="20">
+      <ConditionOccurrenceLink link="16797341526253675"/>
+      <ActionOccurrenceLink link="16797345172684255"/>
+      <ConditionOccurrenceLink link="16797281566764159"/>
+      <ActionOccurrenceLink link="16797282087044233"/>
+      <ConditionOccurrenceLink link="16797502159971385"/>
+      <ActionOccurrenceLink link="16797283380494524"/>
+    </Rule>
+    <Rule id="21">
+      <ConditionOccurrenceLink link="16797341526253675"/>
+      <ActionOccurrenceLink link="16797345172684255"/>
+      <ConditionOccurrenceLink link="16797281566764159"/>
+      <ConditionOccurrenceLink link="16797502160041392"/>
+      <ActionOccurrenceLink link="16797283380494524"/>
+    </Rule>
+  </Rules>
+  <Title language="German" value="Beispiel 03: ET mit Regelgruppen, Scope global und SIDs"/>
+  <UrlsOut>
+    <Url title="Ordner" url="file:///./"/>
+  </UrlsOut>
+  <TestValueGroups selectedGroup="Einfach">
+    <TestValueGroup name="Einfach" description="Keine Verwendung von Scope oder Sid" tvgTiAtt="*ti.att">
+      <Config name="Excel" parms="-Group 'Einfach' -SwitchCoverage '1' -NonExecutableRules '50' -NonExecutableRuleSeq '50' -RecommendedTestCases -Protocol -ExportExcel 'Scopes_03.testcases.xlsx' -OpenFileOut -OpenDirectoryOut"/>
+    </TestValueGroup>
+    <TestValueGroup name="*ti.att"/>
+  </TestValueGroups>
+  <TestValue group="Einfach" type="tcpre" value="ET Testfall Vorbedingung [scope global, sid 0000]"/>
+  <TestValue group="Einfach" type="tcpost" value="ET Testfall Nachbedingung [scope global, sid 0000]"/>
+  <TestValue group="Einfach" type="isi" value="ET Zwischenschritt Testanweisung [scope global, sid 2000]"/>
+  <TestValue group="Einfach" type="ise" value="ET Zwischenschritt erwartetes Resultat [scope global, sid 2000]"/>
+  <TestValue group="*ti.att" type="tcpre" value="scope=global&lt;br/&gt;&lt;br/&gt;// 0nnn - ET, 1nnn - Bedingungen, 2nnn - Zwischenschritt, 3nnn - Aktionen&lt;br/&gt;sid=0000"/>
+  <TestValue group="*ti.att" type="tcpost" value="scope=global&lt;br/&gt;&lt;br/&gt;// 0nnn - ET, 1nnn - Bedingungen, 2nnn - Zwischenschritt, 3nnn - Aktionen&lt;br/&gt;sid=0000"/>
+  <TestValue group="*ti.att" type="isi" value="scope=global&lt;br/&gt;sid=2000 // 0nnn - ET, 1nnn - Bedingungen, 2nnn - Zwischenschritt, 3nnn - Aktionen"/>
+  <TestValue group="*ti.att" type="ise" value="scope=global&lt;br/&gt;&lt;br/&gt;// 0nnn - ET, 1nnn - Bedingungen, 2nnn - Zwischenschritt, 3nnn - Aktionen&lt;br/&gt;sid=2000"/>
+</LFET>

@@ -1,13 +1,13 @@
   
- LF-ET 2.2.1 (230325a) - 26.03.2023 14:47
+ LF-ET 2.2.1 (230325a) - 26.03.2023 14:42
   
  Kommandozeilen-Funktion ausführen:
  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- -GenTest "D:/LF/Projekte/rulebased.group/lfet-examples-scope-de/Scopes_04.lfet" -Group "Einfach" -SwitchCoverage "1" -NonExecutableRules "50" -NonExecutableRuleSeq "50" -RecommendedTestCases -Protocol -ExportExcel "Scopes_04.testcases.xlsx" -OpenFileOut -OpenDirectoryOut
+ -GenTest "D:/LF/Projekte/rulebased.group/lfet-examples-scope-de/Scopes_05.lfet" -Group "Einfach" -SwitchCoverage "1" -NonExecutableRules "50" -NonExecutableRuleSeq "50" -RecommendedTestCases -Protocol -ExportExcel "Scopes_03.testcases.xlsx" -OpenFileOut -OpenDirectoryOut
  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   
- Aktuelles Verzeichnis (user.dir): "C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.2\jbr\bin"
- Prüfen: Entscheidungstabelle Scopes_04
+ Aktuelles Verzeichnis (user.dir): "D:\LF\Development\LFET"
+ Prüfen: Entscheidungstabelle Scopes_05
  OK: 0 Fehler gefunden
  
  TestValueGroup: Einfach, *ti.att
@@ -24,8 +24,8 @@
   
  Regelgruppen: 2
    
-     1: 1 - Scopes_04[Sun Mar 26 14:41:47 CEST 2023] R01-R02-R03 
-     2: 2 - Scopes_04[Sun Mar 26 14:41:47 CEST 2023] R04-R05-R06
+     1: 1 - Scopes_05[Sun Mar 26 14:42:23 CEST 2023] R01-R02-R03 
+     2: 2 - Scopes_05[Sun Mar 26 14:42:23 CEST 2023] R04-R05-R06
   
  Switch Überdeckung: 1-Switch
  
@@ -50,10 +50,10 @@
  
  5 Testfälle erzeugen (Empfohlene Testfälle)
   
- Ausgabedatei erzeugen (Excel): "D:\LF\Projekte\rulebased.group\lfet-examples-scope-de\Scopes_04.testcases.xlsx"
+ Ausgabedatei erzeugen (Excel): "D:\LF\Projekte\rulebased.group\lfet-examples-scope-de\Scopes_03.testcases.xlsx"
  Verzeichnis der Ausgabedatei öffnen: "D:\LF\Projekte\rulebased.group\lfet-examples-scope-de"
- Ausgabedatei öffnen: "D:\LF\Projekte\rulebased.group\lfet-examples-scope-de\Scopes_04.testcases.xlsx"
+ Ausgabedatei öffnen: "D:\LF\Projekte\rulebased.group\lfet-examples-scope-de\Scopes_03.testcases.xlsx"
   
- Ausgabedatei erzeugen (Protokoll): "D:\LF\Projekte\rulebased.group\lfet-examples-scope-de\Scopes_04.log.01.console.txt"
+ Ausgabedatei erzeugen (Protokoll): "D:\LF\Projekte\rulebased.group\lfet-examples-scope-de\Scopes_05.log.01.console.txt"
 
 *** Report-Ende ***

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<LFET version="LF-ET 2.2.1 (230323a)" language="German" saveDate="2023.03.25 at 15:17:43 CET" saveUser="lfhl">
+<LFET version="LF-ET 2.2.1 (230325a)" language="German" saveDate="2023.03.26 at 14:41:47 CEST" saveUser="lfhl">
   <Conditions>
     <Condition uId="16797341524573665">
       <Title language="German" value="Regelgruppe"/>
@@ -36,8 +36,8 @@
         </ConditionOccurrence>
       </ConditionOccurrences>
       <TestValue group="Einfach" type="tspre" value="B02 Allgemeine Konfiguration"/>
-      <TestValue group="Einfach" type="tcpre" value="B02 Testfall Vorbedingung (scope=global)"/>
-      <TestValue group="Einfach" type="tcpost" value="B02 Testfall Nachbedingung (scope=global)"/>
+      <TestValue group="Einfach" type="tcpre" value="B02 Testfall Vorbedingung [scope global]"/>
+      <TestValue group="Einfach" type="tcpost" value="B02 Testfall Nachbedingung [scope global]"/>
       <TestValue group="*ti.att" type="tcpre" value="scope=global"/>
       <TestValue group="*ti.att" type="tcpost" value="scope=global"/>
     </Condition>
@@ -62,8 +62,8 @@
         </ConditionOccurrence>
       </ConditionOccurrences>
       <TestValue group="Einfach" type="tspre" value="B03 Allgemeine Konfiguration"/>
-      <TestValue group="Einfach" type="tcpre" value="B03 Testfall Vorbedingung (scope=global)"/>
-      <TestValue group="Einfach" type="tcpost" value="B03 Testfall Nachbedingung (scope=global)"/>
+      <TestValue group="Einfach" type="tcpre" value="B03 Testfall Vorbedingung [scope global]"/>
+      <TestValue group="Einfach" type="tcpost" value="B03 Testfall Nachbedingung [scope global]"/>
       <TestValue group="*ti.att" type="tcpre" value="scope=global"/>
       <TestValue group="*ti.att" type="tcpost" value="scope=global"/>
     </Condition>
@@ -88,8 +88,8 @@
         </ConditionOccurrence>
       </ConditionOccurrences>
       <TestValue group="Einfach" type="tspre" value="B04 Allgemeine Konfiguration"/>
-      <TestValue group="Einfach" type="tcpre" value="B04 Testfall Vorbedingung (scope=global)"/>
-      <TestValue group="Einfach" type="tcpost" value="B04 Testfall Nachbedingung (scope=global)"/>
+      <TestValue group="Einfach" type="tcpre" value="B04 Testfall Vorbedingung [scope global]"/>
+      <TestValue group="Einfach" type="tcpost" value="B04 Testfall Nachbedingung [scope global]"/>
       <TestValue group="*ti.att" type="tcpre" value="scope=global"/>
       <TestValue group="*ti.att" type="tcpost" value="scope=global"/>
     </Condition>
@@ -108,8 +108,8 @@
         </ActionOccurrence>
       </ActionOccurrences>
       <TestValue group="Einfach" type="tspre" value="A04 Allgemeine Konfiguration"/>
-      <TestValue group="Einfach" type="tcpre" value="A01 Testfall Vorbedingung (scope=global)"/>
-      <TestValue group="Einfach" type="tcpost" value="A01 Testfall Nachbedingung (scope=global)"/>
+      <TestValue group="Einfach" type="tcpre" value="A01 Testfall Vorbedingung [scope global]"/>
+      <TestValue group="Einfach" type="tcpost" value="A01 Testfall Nachbedingung [scope global]"/>
       <TestValue group="*ti.att" type="tcpre" value="scope=global"/>
       <TestValue group="*ti.att" type="tcpost" value="scope=global"/>
     </Action>
@@ -126,8 +126,8 @@
         </ActionOccurrence>
       </ActionOccurrences>
       <TestValue group="Einfach" type="tspre" value="A02 Allgemeine Konfiguration"/>
-      <TestValue group="Einfach" type="tcpre" value="A02 Testfall Vorbedingung (scope=global)"/>
-      <TestValue group="Einfach" type="tcpost" value="A02 Testfall Nachbedingung (scope=global)"/>
+      <TestValue group="Einfach" type="tcpre" value="A02 Testfall Vorbedingung [scope global]"/>
+      <TestValue group="Einfach" type="tcpost" value="A02 Testfall Nachbedingung [scope global]"/>
       <TestValue group="*ti.att" type="tcpre" value="scope=global"/>
       <TestValue group="*ti.att" type="tcpost" value="scope=global"/>
     </Action>
@@ -199,11 +199,10 @@
     </TestValueGroup>
     <TestValueGroup name="*ti.att"/>
   </TestValueGroups>
-  <TestValue group="Einfach" type="tcpre" value="ET Testfall Vorbedingung (scope=global)"/>
-  <TestValue group="Einfach" type="tcpost" value="ET Testfall Nachbedingung (scope=global)"/>
+  <TestValue group="Einfach" type="tcpre" value="ET Testfall Vorbedingung [scope global]"/>
+  <TestValue group="Einfach" type="tcpost" value="ET Testfall Nachbedingung [scope global]"/>
   <TestValue group="Einfach" type="isi" value="ET Zwischenschritt Testanweisung"/>
   <TestValue group="Einfach" type="ise" value="ET Zwischenschritt erwartetes Resultat"/>
-  <Text language="German" value="In den vorherigen Entscheidungstabellen wurden alle verfügbaren Testanweisungen genutzt,&lt;br/&gt;um deren Positionierung im Testfall zu demonstrieren.&lt;br/&gt;&lt;br/&gt;Diese Entscheidungstabelle wurde bereinigt, die nur in Ausnahmefällen benötigten Testanweisungen wurden entfernt.&lt;br/&gt;&lt;br/&gt;Nicht mehr enthalten sind deswegen:&lt;br/&gt;- Anweisungen für die Regelgruppen-Bedingung,Regelgruppen-Aktion und deren Werte&lt;br/&gt;- Anweisungen für nicht verwendete Aktionen&lt;br/&gt;- Anweisungen für Regeln"/>
   <TestValue group="*ti.att" type="tcpre" value="scope=global"/>
   <TestValue group="*ti.att" type="tcpost" value="scope=global"/>
 </LFET>

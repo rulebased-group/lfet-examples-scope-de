@@ -1,12 +1,12 @@
   
- LF-ET 2.2.1 (230325a) - 26.03.2023 14:42
+ LF-ET 2.2.1 (230325a) - 26.03.2023 18:29
   
  Kommandozeilen-Funktion ausführen:
  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  -GenTest "D:/LF/Projekte/rulebased.group/lfet-examples-scope-de/Scopes_05.lfet" -Group "Einfach" -SwitchCoverage "1" -NonExecutableRules "50" -NonExecutableRuleSeq "50" -RecommendedTestCases -Protocol -ExportExcel "Scopes_03.testcases.xlsx" -OpenFileOut -OpenDirectoryOut
  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   
- Aktuelles Verzeichnis (user.dir): "D:\LF\Development\LFET"
+ Aktuelles Verzeichnis (user.dir): "D:\LF\Projekte\rulebased.group\lfet-examples-scope-de"
  Prüfen: Entscheidungstabelle Scopes_05
  OK: 0 Fehler gefunden
  
@@ -24,8 +24,8 @@
   
  Regelgruppen: 2
    
-     1: 1 - Scopes_05[Sun Mar 26 14:42:23 CEST 2023] R01-R02-R03 
-     2: 2 - Scopes_05[Sun Mar 26 14:42:23 CEST 2023] R04-R05-R06
+     1: 1 - Scopes_05[Sun Mar 26 18:29:09 CEST 2023] R01-R02-R03 
+     2: 2 - Scopes_05[Sun Mar 26 18:29:09 CEST 2023] R04-R05-R06
   
  Switch Überdeckung: 1-Switch
  

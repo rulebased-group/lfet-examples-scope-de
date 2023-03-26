@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<LFET version="LF-ET 2.2.1 (230325a)" language="German" saveDate="2023.03.26 at 18:23:33 CEST" saveUser="lfhl">
+<LFET version="LF-ET 2.2.1 (230325a)" language="German" saveDate="2023.03.26 at 18:24:34 CEST" saveUser="lfhl">
   <Conditions>
     <Condition uId="16797341524573665">
       <Title language="German" value="Regelgruppe"/>
@@ -23,16 +23,20 @@
           <Title language="German" value="Ja"/>
           <TestValue group="Einfach" type="tsi" value="B02/01 Testanweisung"/>
           <TestValue group="Einfach" type="tse" value="B02/01 Erwartetes Resultat"/>
-          <TestValue group="Einfach" type="tcpre" value="B02/01 Testfall Vorbedingung"/>
-          <TestValue group="Einfach" type="tcpost" value="B02/01 Testfall Nachbedingung"/>
+          <TestValue group="Einfach" type="tcpre" value="B02/01 Testfall Vorbedingung [scope global]"/>
+          <TestValue group="Einfach" type="tcpost" value="B02/01 Testfall Nachbedingung [scope global]"/>
+          <TestValue group="*ti.att" type="tcpre" value="scope=global"/>
+          <TestValue group="*ti.att" type="tcpost" value="scope=global"/>
         </ConditionOccurrence>
         <ConditionOccurrence uId="16797321392955594">
           <Symbol language="German" value="N"/>
           <Title language="German" value="Nein"/>
           <TestValue group="Einfach" type="tsi" value="B02/02 Testanweisung"/>
           <TestValue group="Einfach" type="tse" value="B02/02 Erwartetes Resultat"/>
-          <TestValue group="Einfach" type="tcpre" value="B02/02 Testfall Vorbedingung"/>
-          <TestValue group="Einfach" type="tcpost" value="B02/02 Testfall Nachbedingung"/>
+          <TestValue group="Einfach" type="tcpre" value="B02/02 Testfall Vorbedingung [scope global]"/>
+          <TestValue group="Einfach" type="tcpost" value="B02/02 Testfall Nachbedingung [scope global]"/>
+          <TestValue group="*ti.att" type="tcpre" value="scope=global"/>
+          <TestValue group="*ti.att" type="tcpost" value="scope=global"/>
         </ConditionOccurrence>
       </ConditionOccurrences>
       <TestValue group="Einfach" type="tspre" value="B02 Allgemeine Konfiguration"/>
@@ -49,16 +53,20 @@
           <Title language="German" value="Ja"/>
           <TestValue group="Einfach" type="tsi" value="B03/01 Testanweisung"/>
           <TestValue group="Einfach" type="tse" value="B03/01 Erwartetes Resultat"/>
-          <TestValue group="Einfach" type="tcpre" value="B03/01 Testfall Vorbedingung"/>
-          <TestValue group="Einfach" type="tcpost" value="B03/01 Testfall Nachbedingung"/>
+          <TestValue group="Einfach" type="tcpre" value="B03/01 Testfall Vorbedingung [scope global]"/>
+          <TestValue group="Einfach" type="tcpost" value="B03/01 Testfall Nachbedingung [scope global]"/>
+          <TestValue group="*ti.att" type="tcpre" value="scope=global"/>
+          <TestValue group="*ti.att" type="tcpost" value="scope=global"/>
         </ConditionOccurrence>
         <ConditionOccurrence uId="16797281566764159">
           <Symbol language="German" value="N"/>
           <Title language="German" value="Nein"/>
           <TestValue group="Einfach" type="tsi" value="B03/02 Testanweisung"/>
           <TestValue group="Einfach" type="tse" value="B03/02 Erwartetes Resultat"/>
-          <TestValue group="Einfach" type="tcpre" value="B03/02 Testfall Vorbedingung"/>
-          <TestValue group="Einfach" type="tcpost" value="B03/02 Testfall Nachbedingung"/>
+          <TestValue group="Einfach" type="tcpre" value="B03/02 Testfall Vorbedingung [scope global]"/>
+          <TestValue group="Einfach" type="tcpost" value="B03/02 Testfall Nachbedingung [scope global]"/>
+          <TestValue group="*ti.att" type="tcpre" value="scope=global"/>
+          <TestValue group="*ti.att" type="tcpost" value="scope=global"/>
         </ConditionOccurrence>
       </ConditionOccurrences>
       <TestValue group="Einfach" type="tspre" value="B03 Allgemeine Konfiguration"/>
@@ -75,16 +83,20 @@
           <Title language="German" value="Ja"/>
           <TestValue group="Einfach" type="tsi" value="B04/01 Testanweisung"/>
           <TestValue group="Einfach" type="tse" value="B04/01 Erwartetes Resultat"/>
-          <TestValue group="Einfach" type="tcpre" value="B04/01 Testfall Vorbedingung"/>
-          <TestValue group="Einfach" type="tcpost" value="B04/01 Testfall Nachbedingung"/>
+          <TestValue group="Einfach" type="tcpre" value="B04/01 Testfall Vorbedingung [scope global]"/>
+          <TestValue group="Einfach" type="tcpost" value="B04/01 Testfall Nachbedingung [scope global]"/>
+          <TestValue group="*ti.att" type="tcpre" value="scope=global"/>
+          <TestValue group="*ti.att" type="tcpost" value="scope=global"/>
         </ConditionOccurrence>
         <ConditionOccurrence uId="16797502160041392">
           <Symbol language="German" value="N"/>
           <Title language="German" value="Nein"/>
           <TestValue group="Einfach" type="tsi" value="B04/02 Testanweisung"/>
           <TestValue group="Einfach" type="tse" value="B04/02 Erwartetes Resultat"/>
-          <TestValue group="Einfach" type="tcpre" value="B04/02 Testfall Vorbedingung"/>
-          <TestValue group="Einfach" type="tcpost" value="B04/02 Testfall Nachbedingung"/>
+          <TestValue group="Einfach" type="tcpre" value="B04/02 Testfall Vorbedingung [scope global]"/>
+          <TestValue group="Einfach" type="tcpost" value="B04/02 Testfall Nachbedingung [scope global]"/>
+          <TestValue group="*ti.att" type="tcpre" value="scope=global"/>
+          <TestValue group="*ti.att" type="tcpost" value="scope=global"/>
         </ConditionOccurrence>
       </ConditionOccurrences>
       <TestValue group="Einfach" type="tspre" value="B04 Allgemeine Konfiguration"/>
@@ -103,8 +115,10 @@
           <Title language="German" value="Aktion ausführen"/>
           <TestValue group="Einfach" type="tsi" value="A01/01 Testanweisung"/>
           <TestValue group="Einfach" type="tse" value="A01/01 Erwartetes Resultat"/>
-          <TestValue group="Einfach" type="tcpre" value="A01/01 Testfall Vorbedingung"/>
-          <TestValue group="Einfach" type="tcpost" value="A01/01 Testfall Nachbedingung"/>
+          <TestValue group="Einfach" type="tcpre" value="A01/01 Testfall Vorbedingung [scope global]"/>
+          <TestValue group="Einfach" type="tcpost" value="A01/01 Testfall Nachbedingung [scope global]"/>
+          <TestValue group="*ti.att" type="tcpre" value="scope=global"/>
+          <TestValue group="*ti.att" type="tcpost" value="scope=global"/>
         </ActionOccurrence>
       </ActionOccurrences>
       <TestValue group="Einfach" type="tspre" value="A04 Allgemeine Konfiguration"/>
@@ -121,8 +135,10 @@
           <Title language="German" value="Aktion ausführen"/>
           <TestValue group="Einfach" type="tsi" value="A02/01 Testanweisung"/>
           <TestValue group="Einfach" type="tse" value="A02/01 Erwartetes Resultat"/>
-          <TestValue group="Einfach" type="tcpre" value="A02/01 Testfall Vorbedingung"/>
-          <TestValue group="Einfach" type="tcpost" value="A02/01 Testfall Nachbedingung"/>
+          <TestValue group="Einfach" type="tcpre" value="A02/01 Testfall Vorbedingung [scope global]"/>
+          <TestValue group="Einfach" type="tcpost" value="A02/01 Testfall Nachbedingung [scope global]"/>
+          <TestValue group="*ti.att" type="tcpre" value="scope=global"/>
+          <TestValue group="*ti.att" type="tcpost" value="scope=global"/>
         </ActionOccurrence>
       </ActionOccurrences>
       <TestValue group="Einfach" type="tspre" value="A02 Allgemeine Konfiguration"/>
@@ -189,7 +205,7 @@
       <ActionOccurrenceLink link="16797283380494524"/>
     </Rule>
   </Rules>
-  <Title language="German" value="Beispiel 04: Regelgruppen, mehrfacher Durchlauf B4/A1/A2, Scope=global auf Vor- und Nachbedingugen, aber nicht auf Werten, keine SIDs"/>
+  <Title language="German" value="Beispiel 04_2: Regelgruppen, mehrfacher Durchlauf B4/A1/A2, Scope=global auf allen Vor- und Nachbedingungen, keine SIDs"/>
   <UrlsOut>
     <Url title="Ordner" url="file:///./"/>
   </UrlsOut>

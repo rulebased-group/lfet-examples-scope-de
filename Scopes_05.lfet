@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<LFET version="LF-ET 2.2.1 (230325a)" language="German" saveDate="2023.03.26 at 14:42:23 CEST" saveUser="lfhl">
+<LFET version="LF-ET 2.2.1 (230325a)" language="German" saveDate="2023.03.26 at 18:29:09 CEST" saveUser="lfhl">
   <Conditions>
     <Condition uId="16797341524573665">
       <Title language="German" value="Regelgruppe"/>
@@ -189,7 +189,7 @@
       <ActionOccurrenceLink link="16797283380494524"/>
     </Rule>
   </Rules>
-  <Title language="German" value="Beispiel 03: ET mit Regelgruppen, Scope global und SIDs"/>
+  <Title language="German" value="Beispiel 03: ET mit Regelgruppen, Scope=global und SIDs zur freien Bestimmung der Reihenfolgen"/>
   <UrlsOut>
     <Url title="Ordner" url="file:///./"/>
   </UrlsOut>

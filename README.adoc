@@ -17,7 +17,7 @@ Wir beginnen auf ganz einfachem Niveau und steigern die Komplexität langsam Sch
 
 Die Wirkung der scope- und sid-Angaben lassen sich am besten durch Vergleichen der generierten Excel-Testfälle nachvollziehen, hier ein Beispiel:
 
-image:{docfile}/../images/Scopes_03_04.png[]
+image:{docdir}/adoc/images/Scopes_03_04.png[]
 
 Ab Entscheidungstabelle *_Scopes_04_* (Start der Verwendung von scope=global) ist *_LF-ET 2.2.1 230325a_* notwendig.
 
@@ -28,31 +28,5 @@ Ab Entscheidungstabelle *_Scopes_04_* (Start der Verwendung von scope=global) is
 
 == Aktuelle Implementierung in LF-ET
 
-=== Aufbau eines Testfalles
-
-* Eine *_Testfall-Vorbedingung_* bestehend aus
-** Einem Block mit allen Vorbedingungen mit *_scope=global und sid_*, gefolgt von
-** Einem Block mit allen Vorbedingungen mit *_scope=global ohne sid_*, gefolgt von
-** Einem Block mit allen Vorbedingungen *_ohne scope_* (d.h. scope rule)
-
-* Die Liste aller "nicht Vor- oder Nachbedingungs-Testschritte", d.h. *_Testanweisungen, Zwischenschritte und erwartete Ergebnisse_*, bestehend aus
-** Einem Block mit allen Testschritten mit *_scope=global und sid_*, gefolgt von
-** Einem Block mit allen Testschritten mit *_scope=global ohne sid_*, gefolgt von
-** Einem Block mit allen Testschritten *_ohne scope_* (d.h. scope rule)
-
-* Eine *_Testfall-Nachbedingung_* bestehend aus:
-** Einem Block mit allen Nachbedingungen mit *_scope=global und sid_*, gefolgt von
-** Einem Block mit allen Nachbedingungen mit *_scope=global ohne sid_*, gefolgt von
-** Einem Block mit allen Nachbedingungen *_ohne scope_* (d.h. scope rule)
-
-=== SID - Sequenz-ID oder Sort-ID
-
-Die SID ist eine optionale Testschritt-Eigenschaft, mit der die "normale" Reihenfolge der Testschritte in einem Testfall übersteuert werden kann.
-
-Die "normale" Reihenfolge der Testschritte ist die Reihenfolge, mit der die Testschritte bei der Berechnung durchlaufen wurden.
-
-Gibt es Testschritte mit derselben SID, dann überschreibt der jeweils bei der Berechnung zuletzt durchlaufene Testschritt den vorher mit dieser SID erfassten Testschritt.
-
-*_Wenn_* aus der *_SID_* ein Integer-Wert abgeleitet werden kann +
-* dann wird dieser intern 10-stellig mit führenden Nullen verwendet +
-* sonst wird der Wert so verwendet, wie er definiert ist
+include::{docdir}/adoc/partials/testcase-structure.adoc[]
+include::{docdir}/adoc/partials/sortierlogik.adoc[]

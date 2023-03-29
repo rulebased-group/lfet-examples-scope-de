@@ -28,5 +28,103 @@ Ab Entscheidungstabelle *_Scopes_04_* (Start der Verwendung von scope=global) is
 
 == Aktuelle Implementierung in LF-ET
 
-include::{docdir}/adoc/partials/testcase-structure.adoc[]
-include::{docdir}/adoc/partials/sortierlogik.adoc[]
+=== Aufbau eines Testfalles
+
+* Eine *_Testfall-Vorbedingung_* bestehend aus
+** Einem Bereich mit allen Vorbedingungen mit *_scope=global und sid_*, gefolgt von
+** Einem Bereich mit allen Vorbedingungen mit *_scope=global ohne sid_*, gefolgt von
+** Einem Bereich mit allen Vorbedingungen *_ohne scope_* (d.h. scope rule)
+
+* Die Liste aller "nicht Vor- oder Nachbedingungs-Testschritte", d.h. *_Testanweisungen, Zwischenschritte und erwartete Ergebnisse_*, bestehend aus
+** Einem Bereich mit allen Testschritten mit *_scope=global und sid_*, gefolgt von
+** Einem Bereich mit allen Testschritten mit *_scope=global ohne sid_*, gefolgt von
+** Einem Bereich mit allen Testschritten *_ohne scope_* (d.h. scope rule)
+
+* Eine *_Testfall-Nachbedingung_* bestehend aus:
+** Einem Bereich mit allen Nachbedingungen mit *_scope=global und sid_*, gefolgt von
+** Einem Bereich mit allen Nachbedingungen mit *_scope=global ohne sid_*, gefolgt von
+** Einem Bereich mit allen Nachbedingungen *_ohne scope_* (d.h. scope rule)
+
+=== Sortierung der Testschritte in einem Bereich
+
+Der Schlüsselwert für die Sortierung der Testschritte kann aus bis zu drei Teilen zusammengesetzt sein:
+
+[cols="1,2a",options="header"]
+|===
+
+|Name
+|Beschreibung
+
+|RuleEntryCount
+|Wird bei jedem Eintritt in eine neue oder andere Regel hochgezählt
+
+|StepType
+|
+
+[cols=",~",frame=none]
+!===
+
+!0
+!Testschritt für die Testfall Vorbedingung
+
+!1
+!Testschritt aus einer Bedingung
+
+!2
+!Zwischenschritt
+
+!3
+!Testschritt aus einer Aktion
+
+!4
+!Testschritt für die Testfall Nachbedingung
+
+!===
+
+|Sid
+|Sequenz- oder Sort-ID, wird intern für die Testschritte automatisch hochgezählt, so dass die "normale" Reihenfolge der Testschritte dieselbe ist, mit der die Testschritte bei der Berechnung durchlaufen wurden.
+
+Die automatisch hochgezählte SID kann über die Testschritteigenschaft *_sid=nnn_* auch individuell gesetzt werden.
+
+|===
+
+Die folgenden Schlüssel-Zusammensetzungen und Ablagebereiche werden verwendet:
+
+[cols="1,1,1,1",options="header"]
+|===
+
+|Scope
+|Sid
+|Schlüssel-Zusammensetzung
+|Ablagebereich
+
+|Global
+|definiert
+|StepType + Sid
+|1) Global mit Sid
+
+|Global
+|nicht definiert
+|intern hochgezählte Sid
+|2) Global ohne Sid
+
+|Rule
+|definiert
+|RuleEntryCount + StepType + Sid
+|3) Testschritte
+
+|Rule
+|nicht definiert
+|RuleEntryCount + StepType + xFF + intern hochgezählte Sid
+|3) Testschritte
+
+|===
+
+Über die Testschritteigenschaft Sid=nnn kann unterschiedlichen Testschritten dieselbe Sid zugeordnet werden,
+wodurch sich auch gezielt gleiche Werte für den Sortierschlüssel ergeben können.
+
+In diesen Fällen wird nur der letzte durchlaufene Testschritt in den Testfall übernommen.
+
+
+
+
